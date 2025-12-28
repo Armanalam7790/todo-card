@@ -42,6 +42,7 @@ const App = () => {
       className="flex flex-wrap  p-2">
 
         <input
+        required
         value={userName}
         onChange={(e)=>{
           setUserName(e.target.value)
@@ -51,6 +52,7 @@ const App = () => {
           placeholder="Enter Name"
         />
         <input
+        required
         value={imgUrl}
         onChange={(e)=>{
           setimgUrl(e.target.value)
@@ -60,6 +62,7 @@ const App = () => {
           placeholder="Profile Image "
         />
          <input
+         required
          value={role}
          onChange={(e)=>{
           setRole(e.target.value)
@@ -70,6 +73,7 @@ const App = () => {
         />
 
         <input
+        required
         value={desc}
         onChange={(e)=>{
           setdesc(e.target.value)
